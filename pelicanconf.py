@@ -3,9 +3,9 @@
 
 AUTHOR = u"Palak Mathur"
 SITENAME = u"Palak Mathur"
-SITEURL = ''
+SITEURL = 'http://palakmathur.github.com'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Asia/Delhi'
 
 DEFAULT_LANG = 'en'
 

@@ -2,6 +2,7 @@
 Title: Java and JVM Languages
 Tags: Ceylon, Clojure, GOSU, Groovy, ibm, java, Java Virtual Machine, JRuby, JVM languages, Jython, NetRexx, Palak Mathur, PalakMathur, python, Ruby, Scala
 Category: Programming
+Slug: jvm-languages
 
 
 Over the years, [JVM](http://en.wikipedia.org/wiki/Java_Virtual_Machine "Java Virtual Machine") has become not only the host of Java but also of several other languages. Categorized together as [JVM-based languages](http://en.wikipedia.org/wiki/List_of_JVM_languages), these languages claim to better what and how Java does performs specific functions. Some of this that needs specific mention and those that interests me are listed below:
