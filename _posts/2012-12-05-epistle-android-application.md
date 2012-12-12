@@ -10,6 +10,6 @@ I had tried using Evernote. It is a fantastic app but an overkill for my kind of
 
 Epistle requires minimal permissions while installation and that too to access the internet so that it may sync your notes with Dropbox. So, there is no harm or fear as your other data is not at risk. 
 
-I think for people who have minimal requirements and appreciate simplicity, Epistle is a good app.
+I think for people who have minimal requirements and appreciate simplicity, Epistle is a good app. Give it a try.
 
 My Rating: 4/5.
