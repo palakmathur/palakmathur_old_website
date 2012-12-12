@@ -229,7 +229,7 @@ pre code {
     font-family: 'Fredericka the Great', cursive;
     font-size: .5em;
     text-align: right;
-    text-transform: uppercase;
+    /* text-transform: uppercase;*/
     margin: 0;
     padding: 0;
 }
