@@ -1,7 +1,8 @@
-﻿Date: 2012-08-09
-Title: Learn Python – Resources
-Tags: python programming, Computer scientist, Development Tools, Games programming in Python, How to Think like a Computer Scientist, Javaranch, Jython, Language, Learn Python, Learning, Mark Lutz, Mark Pilgrim, Palak Mathur, PalakMathur, Programming, python
-Category: Python
+---
+layout: post
+title: Learn Python - Resources
+summary: Here I am listing few of the resources that I think will be good for someone to refer if (s)he wants to learn Python.
+---
 
 
 <a class="alignleft zemanta-img" href="http://commons.wikipedia.org/wiki/File:Python_logo.svg" target="_blank"><img class="zemanta-img-inserted zemanta-img-configured" title="English: Python logo Deutsch: Python Logo" src="http://upload.wikimedia.org/wikipedia/commons/0/06/Python_logo.svg" alt="English: Python logo Deutsch: Python Logo" width="287" height="85" /></a>
