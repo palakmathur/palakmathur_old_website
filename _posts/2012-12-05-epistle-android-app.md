@@ -1,8 +1,6 @@
 ---
 layout: post
 title: [App Review] Epistle - A Simple Notes App for Android.
-Category: App Reviews
-Tags: epistle, notes, android
 summary: Epistle is a light-weight note taking android app. This is my review of the application
 ---
 
