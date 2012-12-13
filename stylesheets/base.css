@@ -219,10 +219,10 @@ pre code {
 #tags-categories{
     margin: 60px 0 0;
     border-top: 1px dashed #ccc;    
-    padding: 5px 0;
+    /*padding: 5px 0;*/
 }
 #tags-categories h3{
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Ubuntu Condensed', sans-serif;
     font-size: .8em;
 }
 
