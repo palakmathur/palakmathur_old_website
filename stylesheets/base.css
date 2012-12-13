@@ -208,6 +208,12 @@ pre code {
 #related h2{
     padding-bottom: 20px;
 }
+#related h3{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: .8em;
+}
+
+
 #related li{
     list-style: none;
 }
@@ -232,4 +238,5 @@ pre code {
     /* text-transform: uppercase;*/
     margin: 0;
     padding: 0;
+
 }
