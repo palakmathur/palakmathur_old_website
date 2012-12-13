@@ -8,7 +8,7 @@ layout: default
 <div id="tags-categories">
       <p>
        <h3>Posted in </h3> <em> {{ page.categories }} </em>
-       <h3>Tagged under </h3> <em> {{ page.tags }} </em>     
+       <h3>Tagged under </h3> <em> {% for tag in page.tags %} {{ tag }}</em>     
       </p>
 </div>
     
