@@ -7,8 +7,8 @@ summary: DO you want to experience the Unix like Command Line in Windows? If yes
 ---
 Recently, I was going through some course on Internet when I came across PowerShell. We used to work with a program called cmd.exe, but always wanted to have the usability and power that Unix command line offers. If you are using Windows 7 or later, then you just need to follow following steps:-
 
- - Click Start.
- - In "Search programs and files", type: `powershell` and press Enter. 
+- Click Start.
+- In "Search programs and files", type: `powershell` and press Enter. 
 
 This will open a cmd.exe like window. 
 
