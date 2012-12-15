@@ -40,7 +40,7 @@ You can also specify the type inline with the command
 The output will look something like this:
 
 
-     Directory: C:\Documents and Settings\Administrator\temp
+     Directory: C:\Documents and Settings\Administrator\Workspace
 
 	 Mode                LastWriteTime            Length   Name 
 	 ----                -------------            ------   ---- 
