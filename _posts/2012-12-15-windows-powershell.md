@@ -10,54 +10,57 @@ Recently, I was going through some course on Internet when I came across PowerSh
 - Click Start.
 - In "Search programs and files", type: powershell and press Enter.
 
-This will open a cmd.exe like window. You can try the following commands on powershell
+This will open a cmd.exe like window. You can try the following commands on powershell:
 
-pwd
+- **pwd** <br>
     print working directory
-hostname
-    my computer's network name
-mkdir
-    make directory
-cd
-    change directory
-ls
-    list directory
-rmdir
-    remove directory
-pushd
-    push directory
-popd
-    pop directory
-cp
-    copy a file or directory
-robocopy
-    robust copy
-mv
-    move a file or directory
-more
-    page through a file
-type
-    print the whole file
-forfiles
-    run a command on lots of files
-dir -r
-    find files
-select-string
-    find things inside files
-help
-    read a manual page
-helpctr
-    find what man page is appropriate
-echo
-    print some arguments
-set
-    export/set a new environment variable
-exit
-    exit the shell
-runas
-    DANGER! become super user root DANGER!
-attrib
-    change permission modifiers
-iCACLS
-    change ownership 
+- **hostname** <br>
+     my computer's network name
+- **mkdir** <br>
+     make directory
+- **cd** <br>
+     change directory
+- **ls** <br>
+     list directory
+- **rmdir** <br>
+     remove directory
+- **pushd** <br>
+     push directory
+- **popd** <br>
+     pop directory
+- **cp** <br>
+     copy a file or directory
+- **robocopy** <br>
+     robust copy
+- **mv** <br>
+     move a file or directory
+- **more** <br>
+     page through a file
+- **type** <br>
+     print the whole file
+- **forfiles** <br>
+     run a command on lots of files
+- **dir -r** <br>
+     find files
+- **select-string** <br>
+     find things inside files
+- **help** <br>
+     read a manual page
+- **helpctr** <br>
+     find what man page is appropriate
+- **echo** <br>
+     print some arguments
+- **set** <br>
+     export/set a new environment variable
+- **exit** <br>
+     exit the shell
+- **runas** <br>
+     DANGER! become super user root DANGER!
+- **attrib** <br>
+     change permission modifiers
+- **iCACLS** <br>
+     change ownership 
 
+I am still trying to learn these commands. Will come up with details when I know about each of them. There are few that you already know. So, let us get started.
+
+Enjoy Powershell!!
