@@ -7,8 +7,8 @@ summary: DO you want to experience the Unix like Command Line in Windows? If yes
 ---
 Recently, I was going through some course on Internet when I came across PowerShell. We used to work with a program called cmd.exe, but always wanted to have the usability and power that Unix command line offers. If you are using Windows 7 or later, then you just need to follow following steps:-
 
-- Click Start.
-- In "Search programs and files", type: powershell and press Enter. 
+ - Click Start.
+ - In "Search programs and files", type: powershell and press Enter. 
 
 This will open a cmd.exe like window. 
 
@@ -16,53 +16,53 @@ If you are still working on Windows XP, like me, then you can download the Power
 
 You can try the following commands on powershell:
 
-- **pwd** <br>
-    print working directory
-- **hostname** <br>
+ - **pwd**  
+     print working directory
+ - **hostname**  
     computer's network name
-- **mkdir** <br>
+ - **mkdir**   
     make directory
-- **cd** <br>
+ - **cd**   
     change directory
-- **ls** <br>
+ - **ls**   
     list directory
-- **rmdir** <br>
+ - **rmdir**   
     remove directory
-- **pushd** <br>
+ - **pushd**   
     push directory
-- **popd** <br>
+ - **popd**   
     pop directory
-- **cp** <br>
+ - **cp**   
     copy a file or directory
-- **robocopy** <br>
+ - **robocopy**   
     robust copy
-- **mv** <br>
+ - **mv**   
     move a file or directory
-- **more** <br>
+ - **more**   
     page through a file
-- **type** <br>
+ - **type**   
     print the whole file
-- **forfiles** <br>
+ - **forfiles**   
     run a command on lots of files
-- **dir -r** <br>
+ - **dir -r**   
     find files
-- **select-string** <br>
+ - **select-string**   
     find things inside files
-- **help** <br>
+ - **help**   
     read a manual page
-- **helpctr** <br>
+ - **helpctr**   
     find what man page is appropriate
-- **echo** <br>
+ - **echo**   
     print some arguments
-- **set** <br>
+ - **set**   
     export/set a new environment variable
-- **exit** <br>
+ - **exit**   
     exit the shell
-- **runas** <br>
+ - **runas**   
     DANGER! become super user root DANGER!
-- **attrib** <br>
+ - **attrib**   
     change permission modifiers
-- **iCACLS** <br>
+ - **iCACLS**   
     change ownership 
 
 I am still trying to learn these commands. Will come up with details when I know about each of them. There are few that you already know. So, let us get started.
