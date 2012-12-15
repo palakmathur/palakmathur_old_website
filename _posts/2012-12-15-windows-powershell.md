@@ -8,62 +8,62 @@ summary: DO you want to experience the Unix like Command Line in Windows? If yes
 Recently, I was going through some course on Internet when I came across PowerShell. We used to work with a program called cmd.exe, but always wanted to have the usability and power that Unix command line offers. If you are using Windows 7 or later, then you just need to follow following steps:-
 
 - Click Start.
-- In "Search programs and files", type: powershell and press Enter.
+- In "Search programs and files", type: powershell and press Enter. 
 
 This will open a cmd.exe like window. 
 
-If you are still working on Windows XP, like me, then I download the PowerShell from [here](http://www.microsoft.com/download/en/details.aspx?displaylang=en&id=16818).
+If you are still working on Windows XP, like me, then you can download the PowerShell from [here](http://www.microsoft.com/download/en/details.aspx?displaylang=en&id=16818).
 
 You can try the following commands on powershell:
 
 - **pwd** <br>
     print working directory
 - **hostname** <br>
-     my computer's network name
+    computer's network name
 - **mkdir** <br>
-     make directory
+    make directory
 - **cd** <br>
-     change directory
+    change directory
 - **ls** <br>
-     list directory
+    list directory
 - **rmdir** <br>
-     remove directory
+    remove directory
 - **pushd** <br>
-     push directory
+    push directory
 - **popd** <br>
-     pop directory
+    pop directory
 - **cp** <br>
-     copy a file or directory
+    copy a file or directory
 - **robocopy** <br>
-     robust copy
+    robust copy
 - **mv** <br>
-     move a file or directory
+    move a file or directory
 - **more** <br>
-     page through a file
+    page through a file
 - **type** <br>
-     print the whole file
+    print the whole file
 - **forfiles** <br>
-     run a command on lots of files
+    run a command on lots of files
 - **dir -r** <br>
-     find files
+    find files
 - **select-string** <br>
-     find things inside files
+    find things inside files
 - **help** <br>
-     read a manual page
+    read a manual page
 - **helpctr** <br>
-     find what man page is appropriate
+    find what man page is appropriate
 - **echo** <br>
-     print some arguments
+    print some arguments
 - **set** <br>
-     export/set a new environment variable
+    export/set a new environment variable
 - **exit** <br>
-     exit the shell
+    exit the shell
 - **runas** <br>
-     DANGER! become super user root DANGER!
+    DANGER! become super user root DANGER!
 - **attrib** <br>
-     change permission modifiers
+    change permission modifiers
 - **iCACLS** <br>
-     change ownership 
+    change ownership 
 
 I am still trying to learn these commands. Will come up with details when I know about each of them. There are few that you already know. So, let us get started.
 
