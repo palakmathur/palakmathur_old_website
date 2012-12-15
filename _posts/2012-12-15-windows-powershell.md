@@ -10,7 +10,11 @@ Recently, I was going through some course on Internet when I came across PowerSh
 - Click Start.
 - In "Search programs and files", type: powershell and press Enter.
 
-This will open a cmd.exe like window. You can try the following commands on powershell:
+This will open a cmd.exe like window. 
+
+If you are still working on Windows XP, like me, then I download the PowerShell from [here](http://www.microsoft.com/download/en/details.aspx?displaylang=en&id=16818).
+
+You can try the following commands on powershell:
 
 - **pwd** <br>
     print working directory
