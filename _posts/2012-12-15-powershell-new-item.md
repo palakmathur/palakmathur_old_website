@@ -10,7 +10,7 @@ summary: As Touch is to UNIX, New-Item is to Windows PowerShell
 Unix has a command called Touch that creates an empty file
 
 	$ touch touch_test.txt  
-	Output: `touch_test.txt 
+	touch_test.txt 
 
 This command is not available in Windows PowerShell. However, there is a command in Powershell which also does the same - New-Item
 
