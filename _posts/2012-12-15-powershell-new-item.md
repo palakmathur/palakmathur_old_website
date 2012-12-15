@@ -9,17 +9,22 @@ summary: As Touch is to UNIX, New-Item is to Windows PowerShell
 
 Unix has a command called Touch that creates an empty file
 
-`$ touch touch_test.txt` <br>
-`touch_test.txt`
+`$ touch touch_test.txt ` <br>
+Output: `touch_test.txt `
 
-`PS C:\Documents and Settings\Administrator\Workspace>New-item new_file.txt `<br>
+This command is not available in Windows PowerShell. However, there is a command in Powershell which also does the same - New-Item
+
+`PS C:\Documents and Settings\Administrator\Workspace>New-item new_file.txt `
+<br>
+
 This will ask you to enter a **Type**
-`Type: file`
+
+`Type: file `
 
 The output will look something like this:
 
 
-    `Directory: C:\Documents and Settings\Administrator\temp`
+    `Directory: C:\Documents and Settings\Administrator\Workspace`
 
 
 `Mode                LastWriteTime            Length   Name`<br>
