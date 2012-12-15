@@ -27,8 +27,8 @@ The output will look something like this:
     Directory: C:\Documents and Settings\Administrator\Workspace
 
 
-	Mode                LastWriteTime            Length   Name<br>
-	----                -------------            ------   ----<br>
+	Mode                LastWriteTime            Length   Name
+	----                -------------            ------   ----
 	-a---             12/15/2012   9:32 PM          0     new_file.txt
 
 Try to use *Directory* as Type. Check it yourself what it does.
@@ -42,8 +42,8 @@ The output will look something like this:
 
      Directory: C:\Documents and Settings\Administrator\temp
 
-	 Mode                LastWriteTime            Length   Name <br>
-	 ----                -------------            ------   ---- <br>
+	 Mode                LastWriteTime            Length   Name 
+	 ----                -------------            ------   ---- 
 	 -a---             12/15/2012   9:32 PM          0     palakmathur.txt
 
 Try this command and I will be soon back with another command. Till then enjoy PowerShell.
