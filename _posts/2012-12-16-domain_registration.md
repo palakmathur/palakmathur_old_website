@@ -43,7 +43,7 @@ As soon as I did this, I received another reply from CrazyDomains, saying:
 	
 	Please do not hesitate to contact us if you have further queries.
 
-Now, I say to hell with you CrazyDomains, I have already registered the domain. It was crazy of me to deal with you. You made my me go crazy and cranky.
+Now, I say to hell with you CrazyDomains, I have already registered the domain. It was crazy of me to deal with you. You made me go crazy and insane.
 
 I am in my senses back. Thanks to BigRock. Hope everything remains fine. :)
 	
