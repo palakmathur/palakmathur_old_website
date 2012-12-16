@@ -259,3 +259,10 @@ pre code {
     padding: 0;
 
 }
+
+#footer h4{
+    font-family: Arial;
+    font-size: .5;
+    text-align: right;
+}
+
