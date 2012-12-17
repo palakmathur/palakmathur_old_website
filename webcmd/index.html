@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="cache-control" content="no-cache">
+    <title>Palak Mathur | Web Command Search</title>
+
+    <!-- CSS GRID -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="../images/favicon.png" />
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../stylesheets/base.css" type="text/css" />
+    
+    
+    <script type="text/javascript" src="../javascripts/webcmd.js"></script>
+    <script>
+    function f()
+    {      
+      document.getElementById("line").focus();
+      document.getElementById("help").innerHTML = helptext();
+    }
+    </script>
+
+    <!-- Google Analytics -->
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-36868278-1']);
+          _gaq.push(['_setDomainName', 'palakmathur.in']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+    <!-- End of Google Analytics -->
+</head>
+<body onload="f();">
+    <div class="container">
+        <div id="menu">
+            <ul>
+                <li><a href="/"><img class="me" src="/images/icons/PalakMathurPhoto.jpg" /></a></li>
+                <li><a href="/about/"><img src="/images/icons/about.png" /></a></li>
+                <li><a href="/articles/"><img src="/images/icons/articles.png" /></a></li>
+                <li><a href="/contact/"><img src="/images/icons/email.png" /></a></li>
+                <li><a href="/webcmd/"><img src="/images/icons/iTerm_icon_large.jpg" /></a></li>
+                <li><a href="/feed.xml"><img src="/images/icons/rss.png" /></a></li>
+            </ul>
+        </div>
+        <div id="main">
+            <div class="content">
+                 <center>
+                    <form onSubmit="return runcmd(this.line.value);">
+                        <nobr>
+                            <input style="font-family: monospace" id="line" type="text" name="cmd" size="80"> 
+                        </nobr>
+                    </form>
+                </center>
+
+                <font color="#cc0000"><b><span id="error"></span></b></font>
+                <br>
+                <b><span id="output"></span></b>
+                <br>
+
+                <center>
+                    <p id="help"></p>
+                </center>
+
+                <br><br>
+            </div>
+        </div><!-- #main -->
+    </div><!-- #container -->
+</body>
+</html>
+
+
