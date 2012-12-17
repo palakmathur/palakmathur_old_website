@@ -3,21 +3,22 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="cache-control" content="no-cache">
-    <title>{{ page.title }}</title>
+    <title>Palak Mathur | Web Command Search</title>
 
     <!-- CSS GRID -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="/images/favicon.png" />
+    <link rel="shortcut icon" href="../images/favicon.png" />
     <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/stylesheets/base.css" type="text/css" />
+    <link rel="stylesheet" href="../stylesheets/base.css" type="text/css" />
     
     
     <script type="text/javascript" src="../javascripts/webcmd.js"></script>
     <script>
     function f()
     {
+      alert("f()")
       document.getElementById("line").focus();
       document.getElementById("help").innerHTML = helptext();
     }
@@ -62,13 +63,13 @@
         </form>
         </center>
 
-        <font color=#cc0000><b><span id=error></span></b></font>
+        <font color="#cc0000"><b><span id="error"></span></b></font>
         <br>
-        <b><span id=output></span></b>
+        <b><span id="output"></span></b>
         <br>
 
         <center>
-            <p id=help></p>
+            <p id="help"></p>
         </center>
 
         <br><br>
