@@ -3,11 +3,33 @@
 // IE syntax fixes (no trailing commas), March 2008
 
 // Simple shortcuts: name: url.
+/*var navigation = {
+    "p":    "http://palakmathur.in",
+    "pi":   "http://palakmathur.in/about",
+    "pa":   "http://palakmathur.in/articles",
+    "pc":   "http://palakmathur.in/contact",
+    "pr":   "http://palakmathur.in/feed.xml",
+    "ph":   "http://palakmathur.in/home"
+}*/
+
+var navigation = {
+    "p":    "http://palaktestorg.github.com",
+    "pi":   "http://palaktestorg.github.com/about",
+    "pa":   "http://palaktestorg.github.com/articles",
+    "pc":   "http://palaktestorg.github.com/contact",
+    "pr":   "http://palaktestorg.github.com/feed.xml",
+    "ph":   "http://palaktestorg.github.com/home"
+}
+
+
+
 var shortcuts = {
 	"m":	"https://mail.google.com/",
 	"c":	"https://www.google.com/calendar",
 	"r":	"http://reddit.com/",
-	"bb":	"http://boingboing.net/"
+	"bb":	"http://boingboing.net/",
+    "fb":   "http://facebook.com",
+    "gp":    "http://getpocket.com/"
 }
 
 // Search shortcuts: name: [url, cgiparam, {extra cgi}]
@@ -27,6 +49,12 @@ var searches = {
 
 // Help text to be displayed for shortcuts & commands.
 var help = {
+    "p":    "Home Page (this ugly page)",
+    "pi":   "About Me",
+    "pa":   "Articles",
+    "pc":   "Contact",
+    "pr":   "RSS Feed",
+    "ph":   "Home Page in Normal Mode (not commandline)",
 	"a":	"amazon",
 	"g":	"google search",
 	"gi":	"google image search",
@@ -59,11 +87,13 @@ function cmd_e(cmd, arg, args)
 // Compute help text.
 function helptext()
 {
-	var a;
+    //alert("helptext");
+    var a;
 	var i = 0;
 	var s = "";
 	
-	s += "<table cellspacing=0 cellpadding=0 border=0>";
+	s += "<table cellspacing=0 cellpadding=0 border=0>";   
+ 
 
 	a = new Array();
 	for(var k in searches)
@@ -74,6 +104,7 @@ function helptext()
 		var h = help[a[i]];
 		if(h == undefined)
 			h = searches[a[i]][0];
+        //alert("a[" + i +"]:" + a[i]);
 		s += "<tr><td><b>" + a[i] + "</b><td width=10><td>" + h + "\n";
 	}
 	s += "<tr height=10>\n";
@@ -88,6 +119,21 @@ function helptext()
 		var h = help[a[i]];
 		if(h == undefined)
 			h = shortcuts[a[i]];
+		s += "<tr><td><b>" + a[i] + "</b><td width=10><td>" + h + "\n";
+	}
+	s += "<tr height=10>\n";
+    
+    a = new Array();
+	i = 0;
+	for(var k in navigation)
+		a[i++] = k;
+	//a.sort();
+	s += "<tr><td colspan=3><b>Site Navigation Commands:</b>";
+	for(i=0; i<a.length; i++){
+		var h = help[a[i]];
+        //alert(h);
+		if(h == undefined)
+			h = navigation[a[i]];
 		s += "<tr><td><b>" + a[i] + "</b><td width=10><td>" + h + "\n";
 	}
 	s += "<tr height=10>\n";
@@ -108,14 +154,17 @@ function helptext()
 	s += "<tr height=10>\n";
 
 	s += "</table>\n";
+    
 	return s;
 }
 
 // Run command.
 function runcmd(cmd)
 {
+    //alert("inside runcmd")
 	// Check for URL.
 	var space = cmd.indexOf(' ');
+    
 	if(space == -1 && (cmd.indexOf('/') != -1 || cmd.indexOf('.') != -1)){
 		// No spaces, has slash or dot: assume URL.
 		if(cmd.indexOf('://') == -1)
@@ -137,6 +186,8 @@ function runcmd(cmd)
 		fn = search;
 	else if(shortcuts[cmd] != undefined)
 		fn = shortcut;
+    else if(navigation[cmd] != undefined)
+        fn = navigations;
 	else{
 		fn = window["cmd_" + cmd];
 		if(fn == undefined){
@@ -144,6 +195,7 @@ function runcmd(cmd)
 			return false;
 		}
 	}
+   
 	fn(cmd, arg, args);
 	return false;
 }
@@ -163,7 +215,7 @@ function error(s)
 // Convert whatever split returns into an Array.
 function toarray(args)
 {
-	var a = new Array();
+    var a = new Array();
 	for(var i = 0; i < args.length; i++)
 		a[i] = args[i];
 	return a;
@@ -172,7 +224,7 @@ function toarray(args)
 // Return a URL with some CGI args.
 function cgiurl(base, params)
 {
-	var url = base + "?";
+    var url = base + "?";
 	for(var k in params)
 		url += k + "=" + escape(params[k]) + "&";
 	return url;
@@ -193,3 +245,10 @@ function shortcut(cmd, arg, args)
 {
 	window.location = shortcuts[cmd];
 }
+
+function navigations(cmd, arg, args)
+{
+    window.location = navigation[cmd];
+}
+
+
