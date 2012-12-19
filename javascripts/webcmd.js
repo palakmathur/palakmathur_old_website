@@ -73,6 +73,8 @@ function cmd_cls(cmd, arg, arg)
 {
     document.getElementById("error").innerHTML = "" ;
     document.getElementById("output").innerHTML = "";
+    document.getElementById("line").focus();
+    document.getElementById("line").value = "";
 }
 
 /////
