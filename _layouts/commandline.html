@@ -1,32 +1,22 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />    
    <meta http-equiv="cache-control" content="no-cache">
-   <title>Palak Mathur | In the beginning was a command line</title>
+   <title>{{ page.title }}</title>
    <meta name="author" content="Palak Mathur" />   
    <meta name="readability-verification" content="QCzSs992GxmRYRKVpPeZ6LE2tS8aYKxsSSQKV8YM"/>
 
    <!-- syntax highlighting CSS -->
-   <link rel="stylesheet" href="stylesheets/syntax.css" type="text/css" />
+   <link rel="stylesheet" href="/stylesheets/syntax.css" type="text/css" />
 
    <!-- Homepage CSS -->
-   <link rel="stylesheet" href="stylesheets/screen.css" type="text/css" media="screen, projection" />
+   <link rel="stylesheet" href="/stylesheets/screen.css" type="text/css" media="screen, projection" />
 
    <!-- Typekit -->
    <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
    
    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-   
-   <!-- Script for Command line interface -->
-   <script type="text/javascript" src="javascripts/webcmd.js"></script>
-    <script>
-    function f()
-    {          
-      document.getElementById("line").focus();
-      document.getElementById("help").innerHTML = helptext();
-    }
-    </script>
    
    <!-- Google Analytics -->
     <script type="text/javascript">
@@ -46,56 +36,39 @@
     <!-- End of Google Analytics -->
    
 </head>
-<body onload="f();">
+<body>
 
-<div class="site">  
-  <div id="home">     
-        <center>
-            <font size=-1>  If you wish to visit normal user interface based site, then just type "ph" (without quotes) and hit enter. </font>
-        </center>
+<!-- ClickTale Top part -->
+<script type="text/javascript">
+var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
 
-        <center>
-            <form onSubmit="return runcmd(this.line.value);">
-                <nobr>
-                    >&nbsp;<input style="font-family: monospace" id="line" type="text" name="cmd" size="80"> 
-                </nobr>
-            </form>
-        </center>
-        
-        <center>
-            <font color="#cc0000"><b><span id="error"></span></b></font>
-            <br>
-            <b><span id="output"></span></b>
-        </center>
-
-        <center>
-            <p id="help"></p>
-        </center>
-        <br><br>
-        <center>
-            <font size=-1>
-            You can type URLs too.<br>          
-            Inspired by <a href="http://swtch.com/~rsc/">RSC</a> and <a href="http://www.devx.com/webdev/Article/33577?trk=DXRSS_LATEST">Greg Travis</a></font>
-        </center>
+<div class="site">
+  <div class="title">
+    <a href="/">Palak Mathur</a>
+    <a class="extra" href="/">home</a>
   </div>
-
+  
+  {{ content }}
   
   <div class="footer">
     <div class="contact">
       <p>
-        <a href="/">Palak Mathur</a><br>
+        Palak Mathur<br />
         me@palakmathur.in
       </p>
     </div>
     <div class="contact">
       <p>
         <a href="http://github.com/palakmathur/">github.com/palakmathur</a><br />
-        <a href="http://twitter.com/palak/">twitter.com/palak</a><br />        
+        <a href="http://twitter.com/palak/">twitter.com/palak</a><br />    
+        <a href="http://twitter.com/palak/">twitter.com/palak</a><br />         
       </p>
     </div>
     <div class="rss">
       <a href="http://palakmathur.in/feed.xml">
-        <img src="images/icons/rss_red.png" alt="Subscribe to RSS Feed" />
+        <img src="/images/icons/rss_red.png" alt="Subscribe to RSS Feed" />
       </a>
     </div>
   </div>
@@ -106,6 +79,3 @@
 
 </body>
 </html>
-
-
-    
