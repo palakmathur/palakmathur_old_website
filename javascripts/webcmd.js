@@ -54,7 +54,8 @@ var help = {
 	"w":	"wikipedia",
 	"e":	"javascript evaluator",
 	"l":	"mit library",
-	"rr":	"csail reading room"
+	"rr":	"csail reading room",
+    "cls":  "clear output/errors"
 }
 
 // Commands: args are command name, arg text,
@@ -68,6 +69,11 @@ function cmd_e(cmd, arg, args)
 	output(arg + " = " + eval(arg));
 }
 
+function cmd_cls(cmd, arg, arg)
+{
+    document.getElementById("error").innerHTML = "" ;
+    document.getElementById("output").innerHTML = "";
+}
 
 /////
 ///// Below here you should not need to fiddle with.
