@@ -3,25 +3,14 @@
 // IE syntax fixes (no trailing commas), March 2008
 
 // Simple shortcuts: name: url.
-/*var navigation = {
+var navigation = {
     "p":    "http://palakmathur.in",
     "pi":   "http://palakmathur.in/about",
     "pa":   "http://palakmathur.in/articles",
     "pc":   "http://palakmathur.in/contact",
     "pr":   "http://palakmathur.in/feed.xml",
     "ph":   "http://palakmathur.in/home"
-}*/
-
-var navigation = {
-    "p":    "http://palaktestorg.github.com",
-    "pi":   "http://palaktestorg.github.com/about",
-    "pa":   "http://palaktestorg.github.com/articles",
-    "pc":   "http://palaktestorg.github.com/contact",
-    "pr":   "http://palaktestorg.github.com/feed.xml",
-    "ph":   "http://palaktestorg.github.com/home"
 }
-
-
 
 var shortcuts = {
 	"m":	"https://mail.google.com/",
