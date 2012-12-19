@@ -30,10 +30,10 @@ var searches = {
 	"cs":	["http://www.google.com/codesearch", "q"],
 	"oeis":	["http://www.research.att.com/~njas/sequences/", "q"],
 	"w":	["http://en.wikipedia.org/wiki/Special:Search", "search"],
-	"l":	["http://library.mit.edu/F", "request",
-			{"func": "find-e", "find_scan_code": "FIND_WRD"}],
-	"rr":	["http://reading-room.csail.mit.edu/cgi-bin/user/search.cgi", "search",
-			{ "database": "all", "order": "desc", "case": "not" }]
+	//"l":	["http://library.mit.edu/F", "request",
+	//		{"func": "find-e", "find_scan_code": "FIND_WRD"}],
+	//"rr":	["http://reading-room.csail.mit.edu/cgi-bin/user/search.cgi", "search",
+	//		{ "database": "all", "order": "desc", "case": "not" }]
 }
 
 // Help text to be displayed for shortcuts & commands.
@@ -53,8 +53,8 @@ var help = {
 	"c":	"google calendar",
 	"w":	"wikipedia",
 	"e":	"javascript evaluator",
-	"l":	"mit library",
-	"rr":	"csail reading room",
+	//"l":	"mit library",
+	//"rr":	"csail reading room",
     "cls":  "clear output/errors"
 }
 
