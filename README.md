@@ -1,7 +1,7 @@
 PalakMathur.IN
 ===============
 
- This repository stores the code for my site: http://palakmathur.in.
+ This repository stores the code for my site: [http://palakmathur.in](http://palakmathur.in).
  After blogging on various platforms like blogger, live journal, wordpress, 
  and tumblr, I wanted to do my own code for my blog. I was frustrated with 
  them as I wanted to tweak them my way. So, I was thinking to just write html 
