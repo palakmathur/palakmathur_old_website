@@ -187,6 +187,15 @@ ul.posts {
   #post pre.terminal code {
     background-color: #333;
   }
+  
+.post .date, .post .readmore{
+font-family: 'Ubuntu Condensed', sans-serif;
+font-size: .8em;
+text-align: right;
+text-transform: uppercase;
+margin: 0;
+padding: 0;
+}
 
 #related {
   margin-top: 2em;
