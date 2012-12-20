@@ -9,7 +9,9 @@ var navigation = {
     "pa":   "http://palakmathur.in/blog",
     "pc":   "http://palakmathur.in/contact",
     "pr":   "http://palakmathur.in/feed.xml",
-    "ph":   "http://palakmathur.in/home"
+    "ph":   "http://palakmathur.in/home",
+    "pbb":  "http://code.palakmathur.in",
+    "pgh":  "https://github.com/palakmathur"
 }
 
 var shortcuts = {
@@ -44,6 +46,8 @@ var help = {
     "pc":   "Contact",
     "pr":   "RSS Feed",
     "ph":   "Home Page in Normal Mode (not commandline)",
+    "pbb":  "Code Repositories on Bitbucket",
+    "pgh":  "Code Repositories on Github",
 	"a":	"amazon",
 	"g":	"google search",
 	"gi":	"google image search",
