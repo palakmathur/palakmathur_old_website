@@ -31,6 +31,8 @@ var searches = {
 	"cs":	["http://www.google.com/codesearch", "q"],
 	"oeis":	["http://www.research.att.com/~njas/sequences/", "q"],
 	"w":	["http://en.wikipedia.org/wiki/Special:Search", "search"],
+    "f":    ["http://www.flipkart.com/search/a/all", "query",
+            {"vertical": "All+Categories", "affid":"palakmathur"}]
 	//"l":	["http://library.mit.edu/F", "request",
 	//		{"func": "find-e", "find_scan_code": "FIND_WRD"}],
 	//"rr":	["http://reading-room.csail.mit.edu/cgi-bin/user/search.cgi", "search",
@@ -58,7 +60,8 @@ var help = {
 	"e":	"javascript evaluator",
 	//"l":	"mit library",
 	//"rr":	"csail reading room",
-    "cls":  "clear output/errors"
+    "cls":  "clear output/errors",
+    "f":    "flipkart"
 }
 
 // Commands: args are command name, arg text,
