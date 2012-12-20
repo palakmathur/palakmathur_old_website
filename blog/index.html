@@ -3,13 +3,17 @@ layout: commandline
 title:  Palak Mathur | Blog
 ---
     
- <div id="home">
-      <h1>Blog Posts</h1>
-      <ul class="posts">
+<div id="main" class="inner">
+  <section class="clearfix">
+  <h2 class="post-title">Blog</h2>
+      <ul>
         {% for post in site.posts %}
-          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-          {{ post.summary }}
-          <p class="readmore"><a href="{{ post.url }}">Read more ...</a></p>
+        <li>   
+            <span class="meta">{{ post.date | date_to_long_string }}</span>
+            <a href="{{ post.url }}">
+            <h3>{{ post.title }}</h3></a>
+            <p>{{ post.summary }}...<a href="{{ post.url }}">Continue reading</a></p>
+        </li>
         {% endfor %}
       </ul>
   </div>
