@@ -5,11 +5,19 @@
    <meta http-equiv="cache-control" content="no-cache">
    <title>{{ page.title }}</title>
    <meta name="author" content="Palak Mathur" />   
-   
-   <!-- Homepage CSS -->
-   <!-- <link rel="stylesheet" href="/stylesheets/screen.css" type="text/css" media="screen, projection" /> -->
-   <link rel="stylesheet" href="/stylesheet/style.css">
+   <meta name="readability-verification" content="QCzSs992GxmRYRKVpPeZ6LE2tS8aYKxsSSQKV8YM"/>
 
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/stylesheets/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/stylesheets/screen.css" type="text/css" media="screen, projection" />
+
+   <!-- Typekit -->
+   <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
+   
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+   
    <!-- Stack Exchange Open Id -->
    <link rel="openid2.provider" href="https://openid.stackexchange.com/openid/provider">
    <link rel="openid2.local_id" href="https://openid.stackexchange.com/user/109108bc-9afb-4af2-8347-4243bedf2680"> 
@@ -32,48 +40,39 @@
     <!-- End of Google Analytics -->
    
 </head>
-<body  class="blog-archive" >
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-        <![endif]-->
+<body>
 
-    <div id="wrapper" class="clearfix">
-    
-      <header id="header" class="clearfix">
-        <div class="inner clearfix">
-          <h1 id="logo"><a href="/">Palak Mathur</a></h1>
-          <nav id="main-nav">
-            <ul>
-              <li class="work"><a href="/work">Commandline</a><span> / </span></li>
-              <li class="blog"><a href="/blog">Blog</a><span> / </span></li>
-              <li class="about"><a href="/about">About</a><span> / </span></li>
-              <li class="last contact"><a href="/contact">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+<div class="site">
+  <div class="title">
+    <a href="/">Palak Mathur</a>    
+  </div>
   
   {{ content }}
   
-  </div> <!-- #wrapper -->
-<footer id="footer" class="clearfix">
-  <div class="inner clearfix">
-    <div class="col col-1">
-      <nav>
-        <ul>
-          <li><a href="/">Commandline</a> | </li>
-          <li><a href="/blog">Blog</a> | </li>
-          <li><a href="/about">About</a> | </li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
-      </nav>
-      <p class="copyright">&#169; 2012 Palak Mathur</p>
+  <div class="footer">
+    <div class="contact">
+      <p>
+        <a href="/">Palak Mathur</a><br>
+        me@palakmathur.in
+      </p>
     </div>
-    
-    
-    <a href="#header" class="back-to-top">Back to Top</a>
+    <div class="contact">
+      <p>
+        <a href="http://github.com/palakmathur/">github.com/palakmathur</a><br />
+        <a href="http://twitter.com/palak/">twitter.com/palak</a><br />    
+        <a href="http://palakmathur.in/about/">palakmathur.in/about</a><br />           
+      </p>
+    </div>
+    <div class="rss">
+      <a href="http://palakmathur.in/feed.xml">
+        <img src="/images/icons/rss_red.png" alt="Subscribe to RSS Feed" />
+      </a>
+    </div>
   </div>
-</footer>
+</div>
+
+<a href="http://github.com/palakmathur"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+
 
 </body>
 </html>
