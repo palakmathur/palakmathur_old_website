@@ -32,7 +32,9 @@ var searches = {
 	"oeis":	["http://www.research.att.com/~njas/sequences/", "q"],
 	"w":	["http://en.wikipedia.org/wiki/Special:Search", "search"],
     "f":    ["http://www.flipkart.com/search/a/all", "query",
-            {"vertical": "All+Categories", "affid":"palakmathur"}]
+            {"vertical": "All+Categories", "affid":"palakmathur"}],
+    "j":    ["http://www.junglee.com/mn/search/junglee", "field-keywords",
+			{"url": "search-alias=aps" }],
 	//"l":	["http://library.mit.edu/F", "request",
 	//		{"func": "find-e", "find_scan_code": "FIND_WRD"}],
 	//"rr":	["http://reading-room.csail.mit.edu/cgi-bin/user/search.cgi", "search",
@@ -61,7 +63,8 @@ var help = {
 	//"l":	"mit library",
 	//"rr":	"csail reading room",
     "cls":  "clear output/errors",
-    "f":    "flipkart"
+    "f":    "flipkart",
+    "j":    "junglee"
 }
 
 // Commands: args are command name, arg text,
