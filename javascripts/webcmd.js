@@ -1,6 +1,4 @@
-﻿// Web command line.
-// Russ Cox <rsc@swtch.com>, February 2007 
-// IE syntax fixes (no trailing commas), March 2008
+﻿/* Palak Mathur | In the beginning was a command line */
 
 // Simple shortcuts: name: url.
 var navigation = {
@@ -20,7 +18,8 @@ var shortcuts = {
 	"r":	"http://reddit.com/",
 	"bb":	"http://boingboing.net/",
     "fb":   "http://facebook.com",
-    "gp":    "http://getpocket.com/"
+    "gp":   "http://getpocket.com/",
+    "gitr": "http://gitref.org/"
 }
 
 // Search shortcuts: name: [url, cgiparam, {extra cgi}]
