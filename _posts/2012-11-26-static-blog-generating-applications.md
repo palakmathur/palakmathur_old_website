@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Static Blog Generators
+category: Programming
+tags: [tatic blog generators, blogs]
 summary: I was eager to learn what static blog really means. I came across few open source softwares like Pelican, Jekyll, etc. and thought I will give a try to hosted Pelican in the form of Calepin. Will update this post with details about various options available
 ---
 
