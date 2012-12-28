@@ -5,9 +5,9 @@ category: Reviews
 tags: [Chandan Pandey, fareb, Hindi Literature, India, Ishq, Jananpith Award, Penguin India, Standard Hindi, Varanasi]
 summary: Book Review of Hindi book IshqFareb by Chandan Pandey
 ---
-[<img title="Buy Ishqfareb from Flipkart.com" alt="Buy Ishqfareb from Flipkart.com" src="http://img6a.flixcart.com/image/book/5/7/9/ishqfareb-275x275-imadbrjesafwbyyk.jpeg" height="200" width="129" />](http://www.flipkart.com/ishqfareb-014341657x/p/itmdbzvtgu4gyajt?pid=9780143416579&amp;affid=palakmathu)
+[![Buy Ishqfareb from Flipkart.com](http://img6a.flixcart.com/image/book/5/7/9/ishqfareb-275x275-imadbrjesafwbyyk.jpeg)](http://www.flipkart.com/ishqfareb-014341657x/p/itmdbzvtgu4gyajt?pid=9780143416579&amp;affid=palakmathu)
 <br>
-[<img alt="" src="http://img7a.flixcart.com/www/prod/images/buy_btn_4-2e64b79e.png" />](http://www.flipkart.com/ishqfareb-014341657x/p/itmdbzvtgu4gyajt?pid=9780143416579&amp;affid=palakmathu)
+[![](http://img7a.flixcart.com/www/prod/images/buy_btn_4-2e64b79e.png)](http://www.flipkart.com/ishqfareb-014341657x/p/itmdbzvtgu4gyajt?pid=9780143416579&amp;affid=palakmathu)
 
 Recently, I got an opportunity to read a Hindi book IshqFareb authored by Chandan Pandey. The book consists of three short stories all telling the story about Love and Hatred, Love and Betrayal and stories are all weaved with how love is cheated with treachery.
 
@@ -15,7 +15,8 @@ Chandan Pandey is a winner of Indian Jnanpeeth Navlekhan Award 2007 and truly, h
 
 Writing of Chandan Pandey is lucid and very contemporary. I felt a kind of relief in reading the stories and felt that the future of Hindi Literature will be bright only if writers and authors in Hindi of the likes of Chandan Pandey are encouraged. I thank Penguin India to take up the cause of Hindi Literature and welcome their step to publish novels and story books in Hindi language.
 
-Now coming back to the book. The book has three stories: `City Public School, Varanasi`, `Shehar Ki Khudai Mein Kya Kuchh Milega`, and `Revolver`. The First one is set in a co-ed school and brings you the memory of school days. The story is about three teenagers and a kind of love triangle narrated beautifully.
+![palak](http://www.blogadda.com/images/ba_tagline.png)
+Now coming back to the book. The book has three stories: 'City Public School, Varanasi', 'Shehar Ki Khudai Mein Kya Kuchh Milega', and 'Revolver'. The First one is set in a co-ed school and brings you the memory of school days. The story is about three teenagers and a kind of love triangle narrated beautifully.
 
 The second one is set in college and though my college life is not anywhere near the act, it really is touching to see the two lover separated due to miscommunication and suspicion. Another brilliantly told story.
 
