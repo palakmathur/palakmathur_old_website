@@ -15,7 +15,6 @@ Chandan Pandey is a winner of Indian Jnanpeeth Navlekhan Award 2007 and truly, h
 
 Writing of Chandan Pandey is lucid and very contemporary. I felt a kind of relief in reading the stories and felt that the future of Hindi Literature will be bright only if writers and authors in Hindi of the likes of Chandan Pandey are encouraged. I thank Penguin India to take up the cause of Hindi Literature and welcome their step to publish novels and story books in Hindi language.
 
-![palak](http://www.blogadda.com/images/ba_tagline.png)
 Now coming back to the book. The book has three stories: 'City Public School, Varanasi', 'Shehar Ki Khudai Mein Kya Kuchh Milega', and 'Revolver'. The First one is set in a co-ed school and brings you the memory of school days. The story is about three teenagers and a kind of love triangle narrated beautifully.
 
 The second one is set in college and though my college life is not anywhere near the act, it really is touching to see the two lover separated due to miscommunication and suspicion. Another brilliantly told story.
