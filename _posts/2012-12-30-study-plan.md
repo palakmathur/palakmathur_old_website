@@ -1,6 +1,5 @@
 ﻿---
 layout: post
-date: 2012-12-30 00:24
 title: Transitioning myself from a "Forgotten" Electronics Engineer to a "Known" Software Engineer.
 category: InsaneThoughts
 tags: [Electronics Engineering, Computer Science and Engineering]
