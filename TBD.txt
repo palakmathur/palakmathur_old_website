@@ -2,3 +2,4 @@
 2. Remove spaces
 3. Theme change
 4. Theme change to terminal-like interface. Everything to be done with commands
+5. Add RSS feed of my GetPocket

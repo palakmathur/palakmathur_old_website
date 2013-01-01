@@ -19,7 +19,9 @@ var shortcuts = {
 	"bb":	"http://boingboing.net/",
     "fb":   "http://facebook.com",
     "gp":   "http://getpocket.com/",
-    "gitr": "http://gitref.org/"
+    "gitr": "http://gitref.org/",
+    "w3":   "http://w3.ibm.com",
+    "ctl":  "https://mail.centurylink.com"
 }
 
 // Search shortcuts: name: [url, cgiparam, {extra cgi}]
