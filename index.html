@@ -23,12 +23,28 @@
    
    <!-- Script for Command line interface -->
    <script type="text/javascript" src="javascripts/webcmd.js"></script>
+   <script type="text/javascript" src="javascripts/jquery-1.8.3.min.js"></script>
     <script>
     function f()
     {          
       document.getElementById("line").focus();
       document.getElementById("help").innerHTML = helptext();
     }
+    $(function(){
+       $('p[id=help]').hide();
+       $('a[title=hidecmd]').hide();
+       $('a[title=showcmd]').click(function(){
+            $('p[id=help]').fadeIn();
+            $('a[title=hidecmd]').show();
+            $(this).hide();
+            f();
+       });
+       $('a[title=hidecmd]').click(function(){
+            $('p[id=help]').slideUp();
+            $(this).hide();
+            $('a[title=showcmd]').show();
+       });
+    });
     </script>
    
    <!-- Google Analytics -->
@@ -49,7 +65,7 @@
     <!-- End of Google Analytics -->
    
 </head>
-<body onload="f();">
+<body>
 
 <div class="site"> 
     <center><b>In the Beginning was a Command line </b></center>
@@ -78,6 +94,8 @@
         <center>
            <font size=2>
             <p id="help"></p>
+            <a title="showcmd" href="#">Show Commands</a>
+            <a title="hidecmd" href="#">Hide Commands</a>
            </font>
         </center>
         <br><br>
