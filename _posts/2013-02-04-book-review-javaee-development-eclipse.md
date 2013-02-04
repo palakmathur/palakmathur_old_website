@@ -14,4 +14,4 @@ My first opinion about the book is that it spoon-feeds you and I hate it. So, I 
 
 My rating will be 2.5/5. Low ranking just because it was making me copy few things which I was not able to understand or comprehend. :)
 
-*P.S.:- I received this book as a gift from the publisher in return of the review on my blog(s) and other sites. *  
+*P.S.:- I received this book as a gift from the publisher in return of the review on my blog(s) and other sites.*  
