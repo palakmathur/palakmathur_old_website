@@ -11,6 +11,6 @@ There are ten chapters covering EJBs and Java Persisitence API (JPA), JAXB, Jasp
 
 My first opinion about the book is that it spoon-feeds you and I hate it. So, I had to figure out the way that it does not do so. I would recommend that you follow the advice and do not merely copy paste, try to figure out why and what the author is trying to do and then if you understand the thing do it yourself. Otherwise even after reading through all the chapters, you will not remember what you have to do and will never understand why it was done in the first place.
 
-My rating will be 2.5/5. Low ranking just because it was making me copy few things which I was not able to understand or comprehend. :)
+My rating will be 2.5/5. Low rating just because it was making me copy few things which I was not able to understand or comprehend. :)
 
 *P.S.:- I received this book as a gift from the publisher in return of the review on my blog(s) and other sites.*  
