@@ -1,4 +1,4 @@
-﻿/* Palak Mathur | In the beginning was a command line */
+/* Palak Mathur | In the beginning was a command line */
 
 // Simple shortcuts: name: url.
 var navigation = {
@@ -95,26 +95,45 @@ function cmd_cls(cmd, arg, arg)
 // Compute help text.
 function helptext()
 {
-    //alert("helptext");
+    alert("helptext");
     var a;
 	var i = 0;
 	var s = "";
 	
 	s += "<table cellspacing=0 cellpadding=0 border=0>";   
- 
-
+    //alert("1");
+	
+    a = new Array();
+	i = 0;
+	for(var k in navigation)
+		a[i++] = k;
+	//a.sort();
+	//alert("2");
+	s += "<tr><td colspan=3><b>Site Navigation Commands:</b>";
+	alert("3");
+	for(i=0; i<a.length; i++){	  
+		var h = help[a[i]];        
+		if(h == undefined)
+			h = navigation[a[i]];
+		s += "<tr><td><b>" + a[i] + "</b><td width=10><td>" + h + "\n";
+	}
+	s += "<tr height=10>\n";
+	
 	a = new Array();
+	i = 0;
 	for(var k in searches)
 		a[i++] = k;
 	a.sort();
 	s += "<tr><td colspan=3><b>Searches:</b>";
-	for(i=0; i<a.length; i++){
+	for(i=0; i<a.length; i++){	     
 		var h = help[a[i]];
 		if(h == undefined)
 			h = searches[a[i]][0];
         //alert("a[" + i +"]:" + a[i]);
 		s += "<tr><td><b>" + a[i] + "</b><td width=10><td>" + h + "\n";
+		
 	}
+		
 	s += "<tr height=10>\n";
 
 	a = new Array();
@@ -124,24 +143,9 @@ function helptext()
 	a.sort();
 	s += "<tr><td colspan=3><b>Shortcuts:</b>";
 	for(i=0; i<a.length; i++){
-		var h = help[a[i]];
+	    var h = help[a[i]];
 		if(h == undefined)
 			h = shortcuts[a[i]];
-		s += "<tr><td><b>" + a[i] + "</b><td width=10><td>" + h + "\n";
-	}
-	s += "<tr height=10>\n";
-    
-    a = new Array();
-	i = 0;
-	for(var k in navigation)
-		a[i++] = k;
-	//a.sort();
-	s += "<tr><td colspan=3><b>Site Navigation Commands:</b>";
-	for(i=0; i<a.length; i++){
-		var h = help[a[i]];
-        //alert(h);
-		if(h == undefined)
-			h = navigation[a[i]];
 		s += "<tr><td><b>" + a[i] + "</b><td width=10><td>" + h + "\n";
 	}
 	s += "<tr height=10>\n";
