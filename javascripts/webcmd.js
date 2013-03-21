@@ -95,7 +95,7 @@ function cmd_cls(cmd, arg, arg)
 // Compute help text.
 function helptext()
 {
-    alert("helptext");
+    //alert("helptext");
     var a;
 	var i = 0;
 	var s = "";
@@ -110,7 +110,7 @@ function helptext()
 	//a.sort();
 	//alert("2");
 	s += "<tr><td colspan=3><b>Site Navigation Commands:</b>";
-	alert("3");
+	
 	for(i=0; i<a.length; i++){	  
 		var h = help[a[i]];        
 		if(h == undefined)
