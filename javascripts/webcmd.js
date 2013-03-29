@@ -181,7 +181,8 @@ function runcmd(cmd)
 		// No spaces, has slash or dot: assume URL.
 		if(cmd.indexOf('://') == -1)
 			cmd = "http://" + cmd;
-		window.location = cmd;
+		// window.location = cmd;
+		window.open(cmd);
 		return false;
 	}
 	if(space == -1){
