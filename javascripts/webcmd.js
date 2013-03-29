@@ -182,7 +182,7 @@ function runcmd(cmd)
 		if(cmd.indexOf('://') == -1)
 			cmd = "http://" + cmd;
 		// window.location = cmd;
-		window.open(cmd, "_blank");
+		window.open(cmd);
 		return false;
 	}
 	if(space == -1){
@@ -264,4 +264,6 @@ function navigations(cmd, arg, args)
     window.location = navigation[cmd];
 }
 
-
+$('a').click(function() {
+  $(this).attr('target', '_blank');
+}); 
