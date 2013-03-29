@@ -182,7 +182,7 @@ function runcmd(cmd)
 		if(cmd.indexOf('://') == -1)
 			cmd = "http://" + cmd;
 		// window.location = cmd;
-		window.open(cmd);
+		window.open(cmd, "_blank");
 		return false;
 	}
 	if(space == -1){
