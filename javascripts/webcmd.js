@@ -2,26 +2,28 @@
 
 // Simple shortcuts: name: url.
 var navigation = {
-    "p":    "http://palakmathur.in",
+     "p":   "http://palakmathur.in",
     "pi":   "http://palakmathur.in/about",
     "pa":   "http://palakmathur.in/articles/",
     "pc":   "http://palakmathur.in/contact",
     "pr":   "http://palakmathur.in/feed.xml",
     "ph":   "http://palakmathur.in/home",
-    "pbb":  "http://code.palakmathur.in",
-    "pgh":  "https://github.com/palakmathur"
+   "pbb":   "http://code.palakmathur.in",
+   "pgh":   "https://github.com/palakmathur"
 }
 
 var shortcuts = {
-	"m":	"https://mail.google.com/",
-	"c":	"https://www.google.com/calendar",
-	"r":	"http://reddit.com/",
-	"bb":	"http://boingboing.net/",
-    "fb":   "http://facebook.com",
-    "gp":   "http://getpocket.com/",
-    "gitr": "http://gitref.org/",
-    "w3":   "http://w3.ibm.com",
-    "ctl":  "https://mail.centurylink.com"
+	
+    "m":   "https://mail.google.com/",
+    "c":   "https://www.google.com/calendar",
+    "r":   "http://reddit.com/",
+   "bb":   "http://boingboing.net/",
+   "fb":   "http://facebook.com",
+   "gp":   "http://getpocket.com/",
+ "gitr":   "http://gitref.org/",
+   "w3":   "http://w3.ibm.com",
+  "ctl":  "https://mail.centurylink.com",
+"ntflx":  "http://netflix.com"
 }
 
 // Search shortcuts: name: [url, cgiparam, {extra cgi}]
