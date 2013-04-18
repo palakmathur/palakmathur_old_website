@@ -33,7 +33,7 @@ var searches = {
 	"g":	["http://www.google.com/search", "q"],
 	"gi":	["http://www.google.com/images", "q"],
 //	"cs":	["http://www.google.com/codesearch", "q"],
-	"oeis":	["http://www.research.att.com/~njas/sequences/", "q"],
+//	"oeis":	["http://www.research.att.com/~njas/sequences/", "q"],
 	"w":	["http://en.wikipedia.org/wiki/Special:Search", "search"],
     "f":    ["http://www.flipkart.com/search/a/all", "query",
             {"vertical": "All+Categories", "affid":"palakmathur"}],
