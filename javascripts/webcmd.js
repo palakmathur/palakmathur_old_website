@@ -67,7 +67,7 @@ var help = {
     "cls":  "clear output/errors",
     "f":    "flipkart",
     "j":    "junglee",
-    "qs"    "quora"
+    "qs":    "quora"
 }
 
 // Commands: args are command name, arg text,
