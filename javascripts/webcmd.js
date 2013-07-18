@@ -22,8 +22,9 @@ var shortcuts = {
    "gp":   "http://getpocket.com/",
  "gitr":   "http://gitref.org/",
    "w3":   "http://w3.ibm.com",
-  "ctl":  "https://mail.centurylink.com",
-"ntflx":  "http://netflix.com"
+  "ctl":   "https://mail.centurylink.com",
+"ntflx":   "http://netflix.com",
+    "q":   "http://www.quora.com"
 }
 
 // Search shortcuts: name: [url, cgiparam, {extra cgi}]
@@ -35,14 +36,11 @@ var searches = {
 //	"cs":	["http://www.google.com/codesearch", "q"],
 //	"oeis":	["http://www.research.att.com/~njas/sequences/", "q"],
 	"w":	["http://en.wikipedia.org/wiki/Special:Search", "search"],
-    "f":    ["http://www.flipkart.com/search/a/all", "query",
+        "f":    ["http://www.flipkart.com/search/a/all", "query",
             {"vertical": "All+Categories", "affid":"palakmathur"}],
-    "j":    ["http://www.junglee.com/mn/search/junglee", "field-keywords",
+        "j":    ["http://www.junglee.com/mn/search/junglee", "field-keywords",
 			{"url": "search-alias=aps" }],
-	//"l":	["http://library.mit.edu/F", "request",
-	//		{"func": "find-e", "find_scan_code": "FIND_WRD"}],
-	//"rr":	["http://reading-room.csail.mit.edu/cgi-bin/user/search.cgi", "search",
-	//		{ "database": "all", "order": "desc", "case": "not" }]
+       "qs":    ["http://www.quora.com/search", "q"]
 }
 
 // Help text to be displayed for shortcuts & commands.
