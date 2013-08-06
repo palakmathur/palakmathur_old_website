@@ -7,8 +7,6 @@ summary: Here I am listing few of the resources that I think will be good for so
 category: Programming
 ---
 
-
-<a class="alignleft zemanta-img" href="http://commons.wikipedia.org/wiki/File:Python_logo.svg" target="_blank"><img class="zemanta-img-inserted zemanta-img-configured" title="English: Python logo Deutsch: Python Logo" src="http://upload.wikimedia.org/wikipedia/commons/0/06/Python_logo.svg" alt="English: Python logo Deutsch: Python Logo" width="287" height="85" /></a>
 Python is a dynamic object-oriented programming language that can be used for many kinds of software development. It offers strong support for integration with other languages and tools, comes with extensive standard libraries, and can be learned in a few days. Many Python programmers report substantial productivity gains and feel the language encourages the development of higher quality, more maintainable code.
 
 Here I am listing few of the resources that I think will be good for someone to refer if (s)he wants to learn Python.
@@ -16,11 +14,12 @@ Here I am listing few of the resources that I think will be good for someone to 
 [Official Documentation](http://www.python.org/doc/current/) - Official Current Documentation
 
 ##Learn Python:##
-<a href="http://www.greenteapress.com/thinkpython/" target="_blank">Think Python: How to Think Like a Computer Scientist by Allen Downey</a> [<a href="http://www.greenteapress.com/thinkpython/thinkpython.pdf" target="_blank">Free pdf</a>][<a href="http://www.greenteapress.com/thinkpython/html/index.html" target="_blank">online html</a>] - is both a good introduction to programming as well as a good introduction to the Python language (<a href="http://www.coderanch.com/how-to/java/LearnPython" target="_blank">description taken from JavaRanch</a>)</p>
-<p style="text-align: justify;"><a href="http://shop.oreilly.com/product/9780596158071.do" target="_blank">Learning Python, Fourth Edition by Mark Lutz</a> - I think the great first book for learning Python</p>
-<p style="text-align: justify;"><a href="http://www.mindview.net/Books/TIPython" target="_blank">Thinking in Python</a> - Available online only. No print versions yet</p>
-<p style="text-align: justify;"><a href="http://www.diveintopython.net/" target="_blank">Dive Into Python by Mark Pilgrim</a> - book aimed at experienced professional programmers who want to hit the ground running with a new language (<a href="http://www.coderanch.com/how-to/java/LearnPython" target="_blank">description taken from JavaRanch</a>)</p>
-<p style="text-align: justify;"><a href="http://inventwithpython.com/" target="_blank">Invent with Python</a> - Book is available at amazon and also available free for online reading and teaches you how to build Computer games.</p>
+[Think Python: How to Think Like a Computer Scientist by Allen Downey](http://www.greenteapress.com/thinkpython/) - is both a good introduction to programming as well as a good introduction to the Python language 
+Learning Python, Fourth Edition by Mark Lutz - I think the great first book for learning Python
+[Thinking in Python](http://www.mindview.net/Books/TIPython) - Nice book available online.
+[Dive Into Python by Mark Pilgrim](http://www.diveintopython.net/) - book aimed at experienced professional programmers who want to hit the ground running with a new language 
+
+[Invent with Python](http://inventwithpython.com/) - Book is available at amazon and also available free for online reading and teaches you how to build Computer games.</p>
 
 <h3 style="text-align: justify;"><strong>Other Resources:</strong></h3>
 <p style="text-align: justify;"><a href="http://www.pythonware.com/daily/" target="_blank">The Daily Python URL </a> - Daily Python URL. Has not been updated for long time now but still has some good links to consider reading.</p>
