@@ -1,30 +1,37 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />    
    <meta http-equiv="cache-control" content="no-cache">
+   <meta name="description" content="Palak Mathur's Website on Technology, Social Issues, Current Affairs, UPSC Civil Services Examination, etc.">
    <title>Palak Mathur | In the beginning was a command line</title>
    <meta name="author" content="Palak Mathur" />   
    <meta name="readability-verification" content="QCzSs992GxmRYRKVpPeZ6LE2tS8aYKxsSSQKV8YM"/>
    
    <!-- favicon -->
-   <link rel="shortcut icon" href="../images/favicon.png" />
+   <link rel="shortcut icon" href="/images/favicon.png" />
 
- 
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/stylesheets/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/stylesheets/screen.css" type="text/css" media="screen, projection" />
+
+  
    <!-- Stack Exchange Open Id -->
    <link rel="openid2.provider" href="https://openid.stackexchange.com/openid/provider">
    <link rel="openid2.local_id" href="https://openid.stackexchange.com/user/109108bc-9afb-4af2-8347-4243bedf2680"> 
    
    <!-- Script for Command line interface -->
-   <script type="text/javascript" src="../javascripts/webcmd.js"></script>
-   <script type="text/javascript" src="../javascripts/jquery-1.8.3.min.js"></script>
+   <script type="text/javascript" src="/javascripts/webcmd.js"></script>
+   <script type="text/javascript" src="/javascripts/jquery-1.8.3.min.js"></script>
     <script>
     function f()
     {          
       document.getElementById("line").focus();
       document.getElementById("help").innerHTML = helptext();
     }
-  /*  $(function(){
+    $(function(){
        $('p[id=help]').hide();
        $('a[title=hidecmd]').hide();
        $('a[title=showcmd]').click(function(){
@@ -38,7 +45,7 @@
             $(this).hide();
             $('a[title=showcmd]').show();
        });
-    }); */
+    });
     </script>
    
    <!-- Google Analytics -->
@@ -59,7 +66,7 @@
     <!-- End of Google Analytics -->
    
 </head>
-<body onload="f();">
+<body>
 
 <div class="site"> 
     <center><b>In the Beginning was a Command line </b></center>
@@ -88,8 +95,8 @@
         <center>
            <font size=2>
             <p id="help"></p>
-           <!-- <a title="showcmd" href="#">Show Commands</a>
-            <a title="hidecmd" href="#">Hide Commands</a> -->
+            <a title="showcmd" href="#">Show Commands</a>
+            <a title="hidecmd" href="#">Hide Commands</a>
            </font>
         </center>
         <br><br>
@@ -100,7 +107,7 @@
         </center>
   </div>
 
- <!-- 
+  
   <div class="footer">
     <div class="contact">
       <p>
@@ -120,11 +127,17 @@
         <img src="images/icons/rss_red.png" alt="Subscribe to RSS Feed" />
       </a>
     </div>
-  </div> -->
+  </div>
 </div>
-<!--
+
 <a href="http://github.com/palakmathur"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
--->
+
+<!-- #footer -->
+<div id="footer">
+<h6><a href="http://palakmathur.github.com">Palak Mathur &copy; 2012</a> <a href="https://plus.google.com/108064038938830712899?rel=author">Google Plus Profile</a><br> 
+The site is powered by <a href="http://pages.github.com">Github Pages</a> and <a href="https://github.com/mojombo/jekyll">Jekyll</a>. <br>
+</div><!-- #footer end -->
+
 
 </body>
 </html>
