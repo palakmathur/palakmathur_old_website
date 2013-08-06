@@ -13,5 +13,5 @@ PalakMathur.IN
  with limited time to install all the stuff that it needed, I went for Jekyll and yes, I 
  am loving it. 
 
- 
+.. 
  
