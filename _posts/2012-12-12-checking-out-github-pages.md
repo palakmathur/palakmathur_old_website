@@ -2,7 +2,7 @@
 layout: post
 title: Checking out Github pages
 category: Programming
-tags: static blog generators, blogs
+tags: [static blog generators, blogs]
 summary: Checking out Github pages
 ---
 

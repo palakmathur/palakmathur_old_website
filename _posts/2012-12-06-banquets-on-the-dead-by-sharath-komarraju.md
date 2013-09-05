@@ -2,7 +2,7 @@
 layout: post
 title: Book Review - Banquets on the Dead by Sharath Komarraju
 category: Book Reviews
-tags: banquets on the dead, Hamid Pasha, Sharath Komarraju
+tags: [banquets on the dead, Hamid Pasha, Sharath Komarraju]
 summary: Banquet on the Dead is fantastically thought and written thriller which will keep you engrossed in the story all the time. It was certainly a joy to read the book.
 ---
 
