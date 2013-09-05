@@ -3,7 +3,7 @@ layout: post
 date: 2012-12-16 23:59
 title: Domain Registration - One Week Headache
 category: InsaneThoughts
-tags: [domain registration, domains, crazydomains, in domains]
+tags: domain registration, domains, crazydomains, in domains
 summary: Domain registration became a weeklong headache for me. What happened? How I overcame it. This post is on a personal experience. 
 ---
 
