@@ -19,12 +19,13 @@ Learning Python, Fourth Edition by Mark Lutz - I think the great first book for 
 [Thinking in Python](http://www.mindview.net/Books/TIPython) - Nice book available online.
 [Dive Into Python by Mark Pilgrim](http://www.diveintopython.net/) - book aimed at experienced professional programmers who want to hit the ground running with a new language 
 
-[Invent with Python](http://inventwithpython.com/) - Book is available at amazon and also available free for online reading and teaches you how to build Computer games.</p>
+[Invent with Python](http://inventwithpython.com/) - Book is available at amazon and also available free for online reading and teaches you how to build Computer games.
 
-<h3 style="text-align: justify;"><strong>Other Resources:</strong></h3>
-<p style="text-align: justify;"><a href="http://www.pythonware.com/daily/" target="_blank">The Daily Python URL </a> - Daily Python URL. Has not been updated for long time now but still has some good links to consider reading.</p>
-<p style="text-align: justify;"><a href="http://www.coderanch.com/forums/f-112/Jython-Python" target="_blank">Java Ranch Python/Jython Forum</a> - One of the best available online community for Programmers, JavaRanch not only caters to Java programming languages but plethora of other languages as well. Meet Python/Jython experts and cohorts on this forum.</p>
-<p style="text-align: justify;"><a href="http://mail.python.org/mailman/listinfo" target="_blank">Python Mailing Lists</a> - List of all Python Mailing lists worldwide</p>
-<p style="text-align: justify;"><a href="http://ipss.org.in" target="_blank">Indian Python Software Society</a></p>
-<p style="text-align: justify;"><a href="http://in.pycon.org/2012/" target="_blank">PyconIndia2012 Website</a> - Official Website of Pycon India 2012</p>
-<p style="text-align: justify;">Let me know if any of the links are broken. As of 9th August 2012, all the links were up and running.</p>
+##Other Resources:##
+[The Daily Python URL](http://www.pythonware.com/daily/) - Daily Python URL. Has not been updated for long time now but still has some good links to consider reading.
+[Java Ranch Python/Jython Forum](http://www.coderanch.com/forums/f-112/Jython-Python") - One of the best available online community for Programmers, JavaRanch not only caters to Java programming languages but plethora of other languages as well. Meet Python/Jython experts and cohorts on this forum.
+[Python Mailing Lists](http://mail.python.org/mailman/listinfo)- List of all Python Mailing lists worldwide<
+[Python Software Society of India](http://python.org.in/) - Python group India with its sub-chapters
+[Pycon India 2012 Website](http://in.pycon.org/2012/) - Official Website of Pycon India 2012.
+
+Let me know if any of the links are broken. As of 9th August 2012, all the links were up and running.
