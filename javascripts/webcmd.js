@@ -7,7 +7,7 @@ var navigation = {
     "pa":   "http://palakmathur.in/articles/",
     "pc":   "http://palakmathur.in/contact",
     "pr":   "http://palakmathur.in/feed.xml",
-    "ph":   "http://palakmathur.in/home",
+    "ph":   "http://palakmathur.in/",
    "pbb":   "http://code.palakmathur.in",
    "pgh":   "https://github.com/palakmathur"
 }
