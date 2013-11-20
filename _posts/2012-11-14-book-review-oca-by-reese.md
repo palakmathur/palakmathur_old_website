@@ -18,7 +18,7 @@ Oracle Certified Associate, Java SE7 Programmer Study Guide by Richard M Reese i
 
 Experienced programmers may find this book as merely introducing the topics without going into the depths. And that is what exactly this book is meant for. We need to understand that this is meant to cover the objectives of the OCA exam and the book covers them well.
 
-If you are an experienced Java programmer then certainly this book is not meant for you. For experienced Java Programmers who have already been certified in Java's older versions can go for upgrade examination thereby skipping OCA route. For those who have not taken older version Certification, they must go through OCA route. And for that purpose this books comes as a great help and relief as it makes you familiar with the examination objectives. I also do not have Java certification from Oracle (or SUN), and after reading this book I think I must go for the exam and am planning to do the same. Bette late than never.
+If you are an experienced Java programmer then certainly this book is not meant for you. For experienced Java Programmers who have already been certified in Java's older versions can go for upgrade examination thereby skipping OCA route. For those who have not taken older version Certification, they must go through OCA route. And for that purpose this books comes as a great help and relief as it makes you familiar with the examination objectives. I also do not have a Java certification from Oracle (or SUN), and after reading this book I think I must go for the exam and am planning to do the same. Better late than never.
 
 The language used is simple and the concepts are introduced in a very clear and lucid manner without throwing too much data and information at a go on the reader.
 
