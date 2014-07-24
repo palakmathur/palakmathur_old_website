@@ -13,4 +13,4 @@ The book is divided into 11 chapters and covers over 50 recipes to master the ar
 The book is good as a quick reference for developers who are currently working on Node.js. However, the book is not for someone who is trying to learn Node.js from scratch though the book may help them if used with a book that covers the concepts of Node.js as the code examples in this book are surely a great asset for anyone.
 
 
-My rating 4/5.
+My rating 3/5.
