@@ -3,6 +3,7 @@ name: Palak Mathur
 description: Techjaunt - Journey of a Developer
 url: http://palakmathur.in
 permalink: /:year/:month/:day/:title
+markdown: kramdown
 safe: true
 lsi: false
 
