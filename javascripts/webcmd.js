@@ -2,7 +2,7 @@
 
 // Simple shortcuts: name: url.
 var navigation = {
-     "p":   "http://palakmathur.in",
+     "p":   "http://palakmathur.in/webcmd",
     "pi":   "http://palakmathur.in/about",
     "pa":   "http://palakmathur.in/articles/",
     "pc":   "http://palakmathur.in/contact",
